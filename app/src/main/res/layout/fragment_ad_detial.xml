@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightPrimaryColor"
+    android:orientation="vertical"
+    tools:context=".view.AdDetialFragment">
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="4dp"
+        android:textColor="@color/primaryText"
+        android:textDirection="anyRtl"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="اعلان" />
+
+    <ImageView
+        android:id="@+id/ad_img"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center" />
+
+
+    <Button
+        android:id="@+id/go_to_web_btn"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_corner_button"
+        android:text="Visit link"
+        android:textAllCaps="false" />
+
+</LinearLayout>
